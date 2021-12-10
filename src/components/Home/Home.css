@@ -1,0 +1,36 @@
+.sviArtiki {
+  max-width: 100vw;
+}
+.sviArtiki {
+  margin-left: 15vw;
+  margin-right: 30px;
+  margin-top: 30px;
+  display: flex;
+  direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .sviArtiki {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .sviArtiki {
+    margin-left: 270px;
+    align-items: center;
+    display: flex;
+    direction: column;
+  }
+}
+
+.allItems {
+  background-image: url("https://media.istockphoto.com/vectors/vector-ecommerce-pattern-with-word-ecommerce-background-vector-id960853444");
+  opacity: 0.9;
+  z-index: -2;
+}

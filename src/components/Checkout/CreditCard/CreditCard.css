@@ -1,0 +1,186 @@
+.controls {
+  display: flex;
+}
+
+.closeLoginWrapper {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+.closeLoginWrapper :hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  margin: auto;
+  background-color: #354d4d;
+  height: fit-content;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 40px;
+}
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+  display: inline;
+  font-weight: bold;
+}
+.credit-card-box .form-control.error {
+  border-color: red;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+  display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+  display: table;
+}
+.credit-card-box .display-tr {
+  display: table-row;
+}
+.credit-card-box .display-td {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+  min-width: 180px;
+}
+
+.newWidth {
+  width: 350px;
+  height: 36px;
+}
+
+.errorDiv {
+  color: "#842029";
+  background-color: "#f8d7da";
+  border-color: "#f5c2c7";
+  position: "relative";
+  padding: "1rem 1rem";
+  margin-bottom: "1rem";
+  margin-top: "20px";
+  border: "1px solid transparent";
+  border-radius: "0.25rem";
+}
+
+/*CHECK MODAL*/
+
+.card {
+  margin: auto;
+  width: 320px;
+  max-width: 600px;
+  border-radius: 20px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media (height: 1366px) {
+  .card {
+    width: 75%;
+  }
+}
+
+#orderno {
+  padding: 1vh 2vh 0;
+  font-size: smaller;
+}
+
+.gap .col-2 {
+  background-color: rgb(213, 217, 233);
+  width: 1.2rem;
+  padding: 1.2rem;
+  margin-top: -2.5rem;
+  border-radius: 1.2rem;
+}
+
+.title {
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 12%;
+}
+
+.main {
+  padding: 0 2rem;
+}
+
+.main img {
+  border-radius: 7px;
+}
+
+.main p {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
+
+#sub-title p {
+  margin: 1vh 0 2vh 0;
+  font-size: 1rem;
+}
+
+.row-main {
+  padding: 1.5vh 0;
+  align-items: center;
+}
+
+hr {
+  margin: 1rem -1vh;
+  border-top: 1px solid rgb(214, 214, 214);
+}
+
+.total {
+  font-size: 1rem;
+}
+
+@media (height: 1366px) {
+  .main p {
+    margin-bottom: 0;
+    font-size: 1.2rem;
+  }
+
+  .total {
+    font-size: 1.5rem;
+  }
+}

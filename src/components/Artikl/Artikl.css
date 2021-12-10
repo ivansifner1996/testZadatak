@@ -1,0 +1,219 @@
+.artiklComponent {
+  max-width: 300px;
+  height: 500px;
+  border: 1px solid rgb(212, 212, 212);
+  box-shadow: 5px 5px 5px rgb(179, 179, 179);
+  margin-left: 50px;
+  margin-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 25%;
+  background-color: white;
+}
+
+.artiklComponent > img {
+  width: 300px;
+  height: 300px;
+}
+
+.artiklComponent1 {
+  background: linear-gradient(to right, rgb(211, 210, 210), rgb(236, 143, 143));
+  text-align: center;
+  padding: 7px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.artiklPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  background-color: white;
+}
+
+.cijena {
+  width: 50%;
+  border-right: 1px solid rgb(175, 175, 175);
+  color: rgb(54, 54, 54);
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.price {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.kolicina {
+  width: 50%;
+  text-align: right;
+  color: rgb(54, 54, 54);
+  font-size: 23px;
+  font-weight: 1000;
+}
+
+.quantity {
+  color: rgb(3, 161, 3);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.shoeComponent__category {
+  color: rgb(109, 109, 109);
+  margin: 7px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dodajArtikl {
+  background: linear-gradient(to right, black, darkslategray);
+  color: rgb(221, 221, 221);
+  min-width: 91%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 7px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.dodajArtikl:hover {
+  background: white;
+  color: black;
+}
+
+.kosarica {
+  display: flex;
+  align-items: center;
+}
+
+.kosarica > span {
+  font-size: 18px;
+  margin-right: 13px;
+}
+
+@media screen and (max-width: 600px) {
+  .artiklComponent {
+    width: 200px;
+    height: 340px;
+    margin-bottom: 40px;
+  }
+
+  .artiklComponent > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .artiklComponent1 {
+    padding: 5px 0;
+    font-size: 13px;
+  }
+
+  .artiklPrice {
+    padding: 4px 8px;
+  }
+
+  .cijena {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .shoeComponent__after {
+    font-size: 12px;
+  }
+
+  .quantity {
+    font-size: 14px;
+  }
+
+  .shoeComponent__category {
+    margin: 4px;
+    font-size: 11px;
+  }
+
+  .dodajArtikl {
+    min-width: 80%;
+    margin-top: 10px;
+    padding: 5px 0;
+    border-radius: 5px;
+  }
+
+  .dodajArtikl:hover {
+    background: white;
+    color: black;
+  }
+
+  .kosarica > span {
+    font-size: 15px;
+    margin-right: 13px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 980px) {
+  .artiklComponent {
+    width: 200px;
+    height: 340px;
+    margin-bottom: 40px;
+  }
+
+  .artiklComponent > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .artiklComponent1 {
+    padding: 5px 0;
+    font-size: 13px;
+  }
+
+  .artiklPrice {
+    padding: 4px 8px;
+  }
+
+  .cijena {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .shoeComponent__after {
+    font-size: 12px;
+  }
+
+  .quantity {
+    font-size: 14px;
+  }
+
+  .shoeComponent__category {
+    margin: 4px;
+    font-size: 11px;
+  }
+
+  .dodajArtikl {
+    min-width: 80%;
+    margin-top: 10px;
+    padding: 5px 0;
+    border-radius: 5px;
+  }
+
+  .dodajArtikl:hover {
+    background: white;
+    color: black;
+  }
+
+  .kosarica > span {
+    font-size: 15px;
+    margin-right: 13px;
+  }
+}
